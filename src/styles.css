@@ -3625,3 +3625,11 @@
     animation-iteration-count: 1 !important;
   }
 }
+
+/*
+  SVG Loading...
+*/
+svg path,
+svg rect{
+  fill: black;
+}

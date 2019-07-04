@@ -1,8 +1,8 @@
 export interface InfoPagina {
-  tema?: string;
+  nombre_corto?: string;
   titulo?: string;
   email?: string;
-  nombre_corto?: string;
+  nombre_completo?: string;
   facebook?: string;
   instagram?: string;
 }
