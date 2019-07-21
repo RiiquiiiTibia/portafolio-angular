@@ -17,7 +17,9 @@ export class SearchComponent implements OnInit {
     this.route.params
       .subscribe( params => {
 
+      // tslint:disable-next-line:no-string-literal
       console.log(params['termino']);
+      // tslint:disable-next-line:no-string-literal
       this.productoService.buscarProducto( params['termino'] );
     });
   }
